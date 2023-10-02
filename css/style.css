@@ -2,6 +2,13 @@ body{
     background-image: url(../img/bg-body.jpg);
 }
 
+#container{
+    margin: 0 auto;
+    width: 860px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
 #profile{
     background-color: #cf455c;
     background-image: url(../img/header-shadow.png);
@@ -160,7 +167,7 @@ ul.socialicons{
     text-decoration: none;
 }
 
-.tabs li.active{
+a.tab-profile.active{
     background: url(../img/tab-hover.png) no-repeat;
 }
 
@@ -174,4 +181,19 @@ ul.socialicons{
     display: block;
     margin-bottom: 5px;
 
+}
+
+#logo{
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+    display: none;
+}
+
+#logo h4{
+    color: #555;
+    line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
 }
