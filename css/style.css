@@ -7,6 +7,7 @@ body {
     padding: 0;
 }
 
+/* navbar starts */
 nav {
     display: flex;
     justify-content: center;
@@ -41,7 +42,9 @@ nav div ul li a {
 nav div ul li a:hover {
     color: #d9832e;
 }
+/* navbar ends */
 
+/* header starts */
 header {
     display: flex;
     justify-content: center;
@@ -114,3 +117,192 @@ header .container {
     background-color: #d9832e;
     color: white;
 }
+/* header ends */
+
+/* about me starts */
+.about-me {
+    background-color: #eaedf2;
+    display: flex;
+    justify-content: center;
+    padding: 18px 0px;
+}
+
+.about-me .container {
+    width: 75%;
+}
+
+.about-me h2 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.about-me p {
+    letter-spacing: 2px;
+    color: gray;
+}
+
+.about-image-box {
+    display: flex;
+    gap: 48px;
+    margin-top: 28px;
+    align-items: center;
+}
+
+.image-box {
+    background-color: white;
+    padding: 14px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.social-box {
+    width: 48px;
+    padding: 10px 6px 10px 6px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    align-items: center;
+}
+
+.social-box button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: #ea9a39;
+    color: white;
+}
+
+.social-box button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.pers-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eaedf2; /* Optional: add a background color */
+    padding: 20px; /* Optional: add padding for better spacing */
+}
+
+.pers-info > div {
+    width: 48%; /* Adjust the width based on your design preference */
+}
+
+.pers-info .label {
+    display: flex;
+    flex-direction: column; /* Stack labels vertically */
+    margin-bottom: 12px; /* Add space between labels */
+}
+
+.pers-info .label h5 {
+    border-bottom: 1px solid gray; /* Add a border below each label */
+    padding-bottom: 8px; /* Adjust spacing for better visual appeal */
+    margin-bottom: 8px; /* Add space between label and value */
+}
+
+.pers-info .label p {
+    margin: 0; /* Remove default margin for paragraphs */
+    font-size: small;
+}
+
+.dwn {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #ea9a39;
+    color: white;
+    padding: 14px 28px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s ease;
+}
+
+.dwn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+/* about me ends */
+
+/* skills starts */
+.skills {
+    padding-top: 58px;
+    padding-bottom: 58px;
+    display: flex;
+    justify-content: center;
+}
+
+.skills .container {
+    width: 75%;
+}
+
+.skills-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.skills .card-box {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+}
+
+.skills .card {
+    background-color: white;
+    border: 2px solid #ea9a39;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.p-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.percentage {
+    width: 50%;
+}
+
+.p-main {
+    height: 6px;
+    background-color: #ddd;
+}
+
+.p-92 {
+    width: 92%;
+    background-color: #ea9a39;
+    height: 100%;
+}
+.p-70 {
+    width: 70%;
+    background-color: #ea9a39;
+    height: 100%;
+}
+.p-80 {
+    width: 80%;
+    background-color: #ea9a39;
+    height: 100%;
+}
+.p-93 {
+    width: 93%;
+    background-color: #ea9a39;
+    height: 100%;
+}
+
+.percent-all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+/* skills ends */
